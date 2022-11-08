@@ -12,14 +12,16 @@ export default function Header() {
 
       <div className="profile-sml">
       <i class="fa-solid fa-bell"></i>
-        <img src="https://cdn-icons-png.flaticon.com/512/4322/4322991.png" alt="" className="profile-icon-sml" width="30"/>
+        <img src="https://cdn-icons-png.flaticon.com/512/4322/4322991.png" alt="" className="profile-icon-sml"/>
         <h3 className="profile-name-sml">User 1</h3>
       </div>
 
       <div className="profile">
-        <img src="https://cdn-icons-png.flaticon.com/512/4322/4322991.png" alt="" className="profile-icon" width="50"/>
-        <p>Hi there,</p>
-        <h2 className="profileName">User 1 (@user1)</h2>
+        <img src="https://cdn-icons-png.flaticon.com/512/4322/4322991.png" alt="" className="profile-icon"/>
+        <div className="greeting">
+          <p>Hi there,</p>
+          <h3 className="profile-name">User 1 (@user1)</h3>
+        </div>
       </div>
 
       <div className="button-row">
