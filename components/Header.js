@@ -9,12 +9,12 @@ export default function Header() {
         <input type="text" className="search-box" />
       </div>
       <div className="profile-sml">
-        <i></i>
-        <img src="" alt="" className="profile-icon-sml" />
+      <i class="fa-solid fa-bell"></i>
+        <img src="https://cdn-icons-png.flaticon.com/512/4322/4322991.png" alt="" className="profile-icon-sml" width="30"/>
         <h3 className="profile-name-sml">User 1</h3>
       </div>
       <div className="profile">
-        <img src="" alt="" className="profile-icon" />
+        <img src="https://cdn-icons-png.flaticon.com/512/4322/4322991.png" alt="" className="profile-icon" width="50"/>
         <p>Hi there,</p>
         <h2 className="profileName">User 1 (@user1)</h2>
       </div>

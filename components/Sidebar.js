@@ -4,51 +4,59 @@ import './Sidebar.css';
 export default function SideBar() {
   return (
     <div className="sidebar">
-      <img
-        src="https://cdn-icons-png.flaticon.com/512/1035/1035688.png"
-        alt="dashboard"
-        width="50"
-      />
-      <h1>Dashboard</h1>
+      <div className="title">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/4725/4725681.png"
+          alt="dashboard"
+          width="50"
+        />
+        <h2>Dashboard</h2>
+      </div>
+      
       <div className="item-row-1">
-        <i class="fa-solid fa-house"></i>
+        
         <a href="" className="dashboard-items">
-          <span>Home</span>
+        <i class="fa-solid fa-house"></i><span>Home</span>
         </a>
-        <i class="fa-solid fa-id-card"></i>
+
+        
         <a href="" className="dashboard-items">
-          <span>Profile</span>
+        <i class="fa-solid fa-id-card"></i><span>Profile</span>
         </a>
-        <i class="fa-regular fa-message"></i>
+        
         <a href="" className="dashboard-items">
-          <span>Messages</span>
+        <i class="fa-regular fa-message"></i><span>Messages</span>
         </a>
-        <i class="fa-solid fa-clock-rotate-left"></i>
+
+        
         <a href="" className="dashboard-items">
-          <span>History</span>
+        <i class="fa-solid fa-clock-rotate-left"></i><span>History</span>
         </a>
-        <i class="fa-solid fa-list-check"></i>
+        
         <a href="" className="dashboard-items">
-          <span>Tasks</span>
+        <i class="fa-solid fa-list-check"></i><span>Tasks</span>
         </a>
-        <i class="fa-solid fa-users-line"></i>
+
+        
         <a href="" className="dashboard-items">
-          <span>Communities</span>
+        <i class="fa-solid fa-users-line"></i><span>Communities</span>
         </a>
       </div>
+
       <div className="item-row-2">
-        <i class="fa-solid fa-gears"></i>
+        
         <a href="" className="dashboard-items">
-          <span>Settings</span>
+        <i class="fa-solid fa-gears"></i><span>Settings</span>
         </a>
-        <i class="fa-solid fa-headset"></i>
+        
         <a href="" className="dashboard-items">
-          <span>Support</span>
+        <i class="fa-solid fa-headset"></i><span>Support</span>
         </a>
-        <i class="fa-solid fa-shield-halved"></i>
+        
         <a href="" className="dashboard-items">
-          <span>Privacy</span>
+        <i class="fa-solid fa-shield-halved"></i><span>Privacy</span>
         </a>
+
       </div>
     </div>
   );
