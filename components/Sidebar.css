@@ -4,15 +4,12 @@
   flex-direction: column;
   background-color: rgba(173, 216, 230, 0.767);
   color: black;
+  padding-left: 0.8em;
 }
 
 a {
   text-decoration: none;
   color: inherit;
-}
-
-h2 {
-  margin-top: 0;
 }
 
 span {
