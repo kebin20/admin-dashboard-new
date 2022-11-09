@@ -21,7 +21,9 @@ export default function Main() {
         {cards}
       </div>
       <div className="AT">
+        <h3>Announcements</h3>
         <Announcements />
+        <h3>Trending</h3>
         <Trending />
       </div>
     </div>

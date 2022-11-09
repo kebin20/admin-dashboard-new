@@ -3,7 +3,6 @@ import React from 'react';
 export default function Announcements() {
   return (
     <div className="announcement-card">
-      <h3>Announcements</h3>
       <h4>Site Maintennance</h4>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
