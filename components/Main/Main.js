@@ -16,9 +16,14 @@ export default function Main() {
   
   return (
     <div className="main">
-      {cards}
-      <Announcements />
-      <Trending />
+      <h3 className="project-header-title">Your Projects</h3>
+      <div className="cards">
+        {cards}
+      </div>
+      <div className="AT">
+        <Announcements />
+        <Trending />
+      </div>
     </div>
   );
 }

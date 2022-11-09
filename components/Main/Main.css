@@ -1,4 +1,39 @@
 .main {
   grid-area: main;
+  display: grid;
   background-color: aqua;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 80px repeat(3,1fr);
+  grid-template-areas: 
+    "title AT"
+    "card AT"
+    ;
+}
+
+.project-header-title {
+  border: 1px solid brown;
+  grid-area: title;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.project-card {
+  border: 1px solid rgb(206, 22, 175);
+  background-color: blue;
+}
+
+.AT{
+  grid-area: AT;
+}
+
+.announcement-card{
+  border: 1px dashed red;
+}
+
+.trending-users{
+  border: 1px dotted black;
 }
