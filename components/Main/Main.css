@@ -4,6 +4,7 @@
   padding: 1em;
   padding-left: 2em;
   background: #1d3557;
+  color: #f1faee;
   grid-template-columns: 3fr 2fr;
   grid-template-rows: 80px repeat(1,1fr);
   grid-template-areas: 
@@ -27,6 +28,7 @@
 .project-card {
   border: 1px solid rgb(206, 22, 175);
   background-color: #f1faee;
+  color: #1d3557;
   display: grid;
   grid-template-rows: 1fr 1fr 2fr;
 }

@@ -13,14 +13,14 @@ export default function Header() {
       <div className="profile-sml">
       <i class="fa-solid fa-bell"></i>
         <img src="https://cdn-icons-png.flaticon.com/512/4322/4322991.png" alt="" className="profile-icon-sml"/>
-        <h3 className="profile-name-sml">User 1</h3>
+        <h3 className="profile-name-sml">Tom Foolery</h3>
       </div>
 
       <div className="profile">
         <img src="https://cdn-icons-png.flaticon.com/512/4322/4322991.png" alt="" className="profile-icon"/>
         <div className="greeting">
           <p>Hi there,</p>
-          <h3 className="profile-name">User 1 (@user1)</h3>
+          <h3 className="profile-name">Tom Foolery (@fooltom)</h3>
         </div>
       </div>
 

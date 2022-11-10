@@ -1,10 +1,6 @@
-h1,
-p {
-  font-family: Lato;
-}
-
 body {
   margin: 0 auto;
+  font-family: 'Inter', sans-serif;
 }
 
 .grid-container {
