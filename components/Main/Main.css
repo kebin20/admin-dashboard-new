@@ -2,6 +2,7 @@
   grid-area: main;
   display: grid;
   padding: 1em;
+  padding-left: 2em;
   background-color: aqua;
   grid-template-columns: 3fr 2fr;
   grid-template-rows: 80px repeat(1,1fr);
@@ -59,6 +60,7 @@
 
 .announcement-card{
   border: 1px dashed red;
+  line-height: 1.1rem;
 }
 
 .trending-users{
@@ -67,9 +69,13 @@
 
 .user {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 4fr;
 }
 
-p {
-  grid-row: 2 /3;
+.trending-user-profile {
+  padding: 0.5em;
+}
+
+p.trending-project-name {
+  margin-top: 0.5em;
 }
