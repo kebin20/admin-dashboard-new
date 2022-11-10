@@ -2,10 +2,10 @@
   grid-area: sidebar;
   display: flex;
   flex-direction: column;
-  background-color: rgba(173, 216, 230, 0.767);
-  color: black;
-  padding-left: 0.8em;
-  padding-right: 0.8em;
+  background-color: #e63946;
+  color: white;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 a {

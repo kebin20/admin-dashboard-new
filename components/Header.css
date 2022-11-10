@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(2, auto);
-  background-color: pink;
+  background-color: #a8dadc;
 }
 /* main profile */
 .profile {
@@ -75,4 +75,6 @@ input.search-box {
   margin: 0.5em;
   border-radius: 15px;
   border: none;
+  background-color: #457b9d;
+  color: white;
 }
