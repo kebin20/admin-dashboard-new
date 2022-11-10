@@ -73,10 +73,16 @@
   line-height: 1.5rem;
   background-color: #f1faee;
   color: #1d3557;
+  border-radius: 8px;
 }
 
-.announcement-card > p, .announcement-card > h4 {
+.announcement-card > p {
+  padding: 1.5em;
+}
+
+.announcement-card > h4 {
   padding: 1em;
+  margin: 0;
 }
 
 .trending-users{
