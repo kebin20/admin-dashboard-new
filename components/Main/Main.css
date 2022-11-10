@@ -13,9 +13,12 @@
     ;
 }
 
+
+/* Card Section */
 .project-header-title {
-  border: 1px solid brown;
   grid-area: title;
+  height: 30%;
+  align-self: end;
 }
 
 .cards {
@@ -26,7 +29,8 @@
 }
 
 .project-card {
-  border: 1px solid rgb(206, 22, 175);
+  border-radius: 8px;
+  border-left: 9px solid #fca311;
   background-color: #f1faee;
   color: #1d3557;
   display: grid;
@@ -46,23 +50,33 @@
 
 .project-button-row{
   display: flex;
-  align-items: baseline;
+  align-items: flex-end;
   justify-content: flex-end;
   padding: 1em;
 }
 
 .project-button-row>button {
   margin: 0.2em;
+  background-color: #f1faee;
+  border: none;
+  font-size: 1.1rem;
 }
 
+
+/* Announcements & Trending sections */
 .AT{
   grid-area: AT;
   padding: 1em;
 }
 
 .announcement-card{
-  border: 1px dashed red;
   line-height: 1.5rem;
+  background-color: #f1faee;
+  color: #1d3557;
+}
+
+.announcement-card > p, .announcement-card > h4 {
+  padding: 1em;
 }
 
 .trending-users{
