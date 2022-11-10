@@ -19,7 +19,7 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3,250px);
+  grid-template-rows: repeat(3,200px);
   grid-gap: 1em;
 }
 
@@ -27,15 +27,29 @@
   border: 1px solid rgb(206, 22, 175);
   background-color: rgba(233, 210, 10, 0.911);
   display: grid;
-  grid-template-rows: 1fr 1fr 3fr;
+  grid-template-rows: 1fr 1fr 2fr;
+}
+
+.project-card > h4 {
+  padding-left: 0.8em;
+  padding-right: 0.6em;
 }
 
 .project-card > p {
   font-weight: 300;
+  padding-left: 0.8em;
+  padding-right: 0.6em;
 }
 
 .project-button-row{
   display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  padding: 1em;
+}
+
+.project-button-row>button {
+  margin: 0.2em;
 }
 
 .AT{
@@ -49,4 +63,13 @@
 
 .trending-users{
   border: 1px dotted black;
+}
+
+.user {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+p {
+  grid-row: 2 /3;
 }

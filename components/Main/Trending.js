@@ -10,8 +10,8 @@ export default function Trending() {
       </div>
       <div className="user">
             <img src="https://cdn-icons-png.flaticon.com/512/4323/4323004.png" width="40"/>
-            <p>@morgan</p>
-            <p>Super Cool Project</p>
+            <p className="trending-handle-name">@morgan</p>
+            <p className="trending-project-name">Super Cool Project</p>
       </div>
       <div className="user">
             <img src="https://cdn-icons-png.flaticon.com/512/3940/3940417.png" width="40"/>
