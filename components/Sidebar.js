@@ -12,51 +12,54 @@ export default function SideBar() {
         />
         <h2>Dashboard</h2>
       </div>
-      
+
       <div className="item-row-1">
-        
         <a href="" className="dashboard-items">
-        <i class="fa-solid fa-house"></i><span>Home</span>
+          <i className="fa-solid fa-house"></i>
+          <span>Home</span>
         </a>
 
-        
         <a href="" className="dashboard-items">
-        <i class="fa-solid fa-id-card"></i><span>Profile</span>
-        </a>
-        
-        <a href="" className="dashboard-items">
-        <i class="fa-regular fa-message"></i><span>Messages</span>
+          <i className="fa-solid fa-id-card"></i>
+          <span>Profile</span>
         </a>
 
-        
         <a href="" className="dashboard-items">
-        <i class="fa-solid fa-clock-rotate-left"></i><span>History</span>
-        </a>
-        
-        <a href="" className="dashboard-items">
-        <i class="fa-solid fa-list-check"></i><span>Tasks</span>
+          <i className="fa-regular fa-message"></i>
+          <span>Messages</span>
         </a>
 
-        
         <a href="" className="dashboard-items">
-        <i class="fa-solid fa-users-line"></i><span>Communities</span>
+          <i class="fa-solid fa-clock-rotate-left"></i>
+          <span>History</span>
+        </a>
+
+        <a href="" className="dashboard-items">
+          <i className="fa-solid fa-list-check"></i>
+          <span>Tasks</span>
+        </a>
+
+        <a href="" className="dashboard-items">
+          <i className="fa-solid fa-users-line"></i>
+          <span>Communities</span>
         </a>
       </div>
 
       <div className="item-row-2">
-        
         <a href="" className="dashboard-items">
-        <i class="fa-solid fa-gears"></i><span>Settings</span>
-        </a>
-        
-        <a href="" className="dashboard-items">
-        <i class="fa-solid fa-headset"></i><span>Support</span>
-        </a>
-        
-        <a href="" className="dashboard-items">
-        <i class="fa-solid fa-shield-halved"></i><span>Privacy</span>
+          <i className="fa-solid fa-gears"></i>
+          <span>Settings</span>
         </a>
 
+        <a href="" className="dashboard-items">
+          <i className="fa-solid fa-headset"></i>
+          <span>Support</span>
+        </a>
+
+        <a href="" className="dashboard-items">
+          <i className="fa-solid fa-shield-halved"></i>
+          <span>Privacy</span>
+        </a>
       </div>
     </div>
   );

@@ -63,30 +63,43 @@
 }
 
 
-/* Announcements & Trending sections */
+/* Announcements section */
 .AT{
   grid-area: AT;
   padding: 1em;
 }
 
+.container {
+  padding: 1em;
+}
+
 .announcement-card{
-  line-height: 1.5rem;
   background-color: #f1faee;
   color: #1d3557;
   border-radius: 8px;
 }
 
-.announcement-card > p {
+.container > p {
   padding: 1.5em;
+  line-height: 1.5;
+  display: block;
 }
 
-.announcement-card > h4 {
+.container > p:not(:last-child) {
+  border-bottom: 1px solid  #8d99ae;
+}
+
+.container > h4 {
   padding: 1em;
   margin: 0;
 }
 
+/* Trending section */
 .trending-users{
-  border: 1px dotted black;
+  background-color: #f1faee;
+  color: #1d3557;
+  padding: 1em;
+  border-radius: 8px;
 }
 
 .user {
@@ -95,7 +108,7 @@
 }
 
 .trending-user-profile {
-  padding: 0.5em;
+  padding: 1em;
 }
 
 p.trending-project-name {

@@ -7,13 +7,13 @@ export default function Card(props) {
       <p>{props.projectContent}</p>
       <div className="project-button-row">
         <button className="add">
-          <i class="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
         </button>
         <button className="watch">
-          <i class="fa-regular fa-eye"></i>
+          <i className="fa-regular fa-eye"></i>
         </button>
         <button className="share">
-          <i class="fa-solid fa-share-nodes"></i>
+          <i className="fa-solid fa-share-nodes"></i>
         </button>
       </div>
     </div>
