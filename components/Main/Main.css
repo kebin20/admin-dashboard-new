@@ -115,6 +115,6 @@ p.trending-project-name {
 
 @media (min-width: 800px) {
   .trending-users {
-    max-width: 45%;
+    max-width: 70%;
   }
 }
