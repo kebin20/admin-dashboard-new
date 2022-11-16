@@ -55,7 +55,7 @@ input.search-box {
 .profile-sml {
   display: flex;
   align-items: center;
-  margin-left: 3em;
+  margin: 0 auto;
 }
 
 .profile-icon-sml {
@@ -69,7 +69,7 @@ input.search-box {
 .button-row {
   display: flex;
   align-items: center;
-  margin-left: 1em;
+  margin: 0 auto;
 }
 
 .button-row > button {

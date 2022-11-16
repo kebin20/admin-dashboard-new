@@ -6,13 +6,11 @@
   background: #1d3557;
   color: #f1faee;
   grid-template-columns: 3fr 2fr;
-  grid-template-rows: 80px repeat(1,1fr);
-  grid-template-areas: 
-    "title AT"
-    "card AT"
-    ;
+  grid-template-rows: 80px repeat(1, 1fr);
+  grid-template-areas:
+    'title AT'
+    'card AT';
 }
-
 
 /* Card Section */
 .project-header-title {
@@ -24,7 +22,7 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3,200px);
+  grid-template-rows: repeat(3, 200px);
   grid-gap: 1em;
 }
 
@@ -48,23 +46,22 @@
   padding-right: 0.6em;
 }
 
-.project-button-row{
+.project-button-row {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
   padding: 1em;
 }
 
-.project-button-row>button {
+.project-button-row > button {
   margin: 0.2em;
   background-color: #f1faee;
   border: none;
   font-size: 1.1rem;
 }
 
-
 /* Announcements section */
-.AT{
+.AT {
   grid-area: AT;
   padding: 1em;
 }
@@ -73,7 +70,7 @@
   padding: 1em;
 }
 
-.announcement-card{
+.announcement-card {
   background-color: #f1faee;
   color: #1d3557;
   border-radius: 8px;
@@ -86,7 +83,7 @@
 }
 
 .container > p:not(:last-child) {
-  border-bottom: 1px solid  #8d99ae;
+  border-bottom: 1px solid #8d99ae;
 }
 
 .container > h4 {
@@ -95,7 +92,8 @@
 }
 
 /* Trending section */
-.trending-users{
+.trending-users {
+  max-width: 85%;
   background-color: #f1faee;
   color: #1d3557;
   padding: 1em;
@@ -113,4 +111,10 @@
 
 p.trending-project-name {
   margin-top: 0.5em;
+}
+
+@media (min-width: 800px) {
+  .trending-users {
+    max-width: 45%;
+  }
 }
