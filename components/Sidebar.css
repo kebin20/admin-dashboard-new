@@ -2,7 +2,8 @@
   grid-area: sidebar;
   display: flex;
   flex-direction: column;
-  background-color: #e63946;
+  /* background-color: #e63946; */
+  background-color: #457b9d;
   color: white;
   padding-left: 2em;
   padding-right: 2em;
