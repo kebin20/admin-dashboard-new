@@ -9,6 +9,7 @@ export default function SideBar() {
           src="https://cdn-icons-png.flaticon.com/512/4725/4725681.png"
           alt="dashboard"
           width="50"
+          
         />
         <h2>Dashboard</h2>
       </div>
